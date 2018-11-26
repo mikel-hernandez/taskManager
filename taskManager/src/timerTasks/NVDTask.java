@@ -30,11 +30,5 @@ public class NVDTask extends TimerTask {
 		// TODO Auto-generated method stub
 		Thread.currentThread().setPriority(Thread.MAX_PRIORITY);
 		nvdConn.loadConfiguration();
-		try {
-			wait(1);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 	}
 }
