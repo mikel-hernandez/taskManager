@@ -1,0 +1,17 @@
+{
+	"client": {
+		"source": {
+			"name" : "National Vulnerability Database",
+			"resource" : "https://nvd.nist.gov/feeds/json/cve/1.0/nvdcve-1.0-modified.json.zip",
+			"outputFile" : "myfile.json",
+			"destinationFolder": "/home/ikerlan/data",
+			"logFile": "nvd.log",
+			"logFolder": "/var/log/",
+			"vulnerabilitySearchFrequency": "25"
+		}
+	},
+	"operationalParameters" : {
+		"reScanTime" : "10"
+		"Status": "run"
+	}
+}
